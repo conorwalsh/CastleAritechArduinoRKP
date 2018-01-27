@@ -590,4 +590,3 @@ void RKPClass::SendToPanel( bool bAck )
 	//Log("Send>");LogHex(h1); LogHex(h2); LogHex(h3); LogHex(h4); LogLn(".");
 }
 
-
