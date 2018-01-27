@@ -28,7 +28,7 @@ Changelog
 =======================
 
 New Circuit Diagram:
-[Schematic](https://github.com/conorwalsh/CastleAritechArduinoRKP/blob/master/HowTo/breadboard%20alarm%20serial.png)
+![Schematic](https://github.com/conorwalsh/CastleAritechArduinoRKP/blob/master/HowTo/breadboard%20alarm%20serial.png?raw=true)
 
 Changed ports to 80 (need to change line 64 in WebSocket.cpp aswell as config file).
 
