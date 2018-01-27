@@ -23,3 +23,17 @@ The circuit required is in the HowTo Notes Folder.
 Ive put a step by step guide on Instructables [here (Link..)](http://www.instructables.com/id/House-Alarm-Internet-Dialer-With-Arduino-Reverse-E/).
 
 April 2015
+
+Changelog
+=======================
+
+New Circuit Diagram:
+[Schematic](https://github.com/conorwalsh/CastleAritechArduinoRKP/blob/master/HowTo/breadboard%20alarm%20serial.png)
+
+Changed ports to 80 (need to change line 64 in WebSocket.cpp aswell as config file).
+
+Added warning email for things like power and battery failure.
+
+January 2018
+
+
