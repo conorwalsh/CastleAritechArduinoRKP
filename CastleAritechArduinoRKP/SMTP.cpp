@@ -5,6 +5,10 @@
 * Author: Ambrose
 *
 * SENDEMAILS defined in config.h determines if emails will be sent
+*
+* Edited by: Conor Walsh
+* Added warning emails and edited the email content
+*
 */
 
 #include "limits.h"
