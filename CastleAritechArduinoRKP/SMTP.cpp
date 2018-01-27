@@ -156,17 +156,17 @@ void SMTP::SendEmailProcess()
 	{
 		LogLn(F("Sending message"));
 		SMTP::client.print("To: "); SMTP::client.println(F(EMAIL_ADDR));
-		SMTP::client.print("From: TheGarage <"); SMTP::client.print(F(SMTP_USER)); SMTP::client.println(">");
-		SMTP::client.println("Subject: Garage Alarm\r\n");
+		SMTP::client.print("From: Alarm <"); SMTP::client.print(F(SMTP_USER)); SMTP::client.println(">");
+		SMTP::client.println("Subject: Alarm\r\n");
 	
 		if(SMTP::nMsgToSend == START)
-			SMTP::client.println("The Garage Alarm has just turned on\r\n");
+			SMTP::client.println("The Alarm has just turned on\r\n");
 		else if(SMTP::nMsgToSend == ALARM)
-			SMTP::client.println("The Garage Alarm has gone off\r\n");
+			SMTP::client.println("The Alarm has gone off\r\n");
     else if(SMTP::nMsgToSend == WARNING)
-      SMTP::client.println("There is a warning on the Garage Alarm panel\r\n");
+      SMTP::client.println("There is a warning on the Alarm panel\r\n");
 		SMTP::client.println("Regards,");
-    SMTP::client.println("Garage");
+    SMTP::client.println("Alarm");
 		
 		SMTP::client.println(".");
 		SMTP::bWaitForResponse=true;
