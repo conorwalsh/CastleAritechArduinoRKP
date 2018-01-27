@@ -26,10 +26,10 @@
 //The Arduino IP address and Port (192.168.1.205:8383)
 #define IP_A 192
 #define IP_B 168
-#define IP_C 1
-#define IP_D 205
+#define IP_C 2
+#define IP_D 10
 //The IPPort for the server to listen on
-#define IP_P 8383
+#define IP_P 80
 
 
 #define EMAIL_ADDR "?????????@gmail.com"  //Email to send to
@@ -51,10 +51,11 @@
 //The Email server
 //This is the IP for "smtp.gmx.com" a free smtp server you can use
 // smtp.gmx.com = 74.208.5.1
-#define SMTP_IP_A 74
-#define SMTP_IP_B 208
-#define SMTP_IP_C 5
-#define SMTP_IP_D 1
+// mail.blacknight.com = 81.17.254.9
+#define SMTP_IP_A 81
+#define SMTP_IP_B 17
+#define SMTP_IP_C 254
+#define SMTP_IP_D 9
 
 
 /*---To Send emails You NEED get the IP address of the SMTP server from the list below that matches your Internet Provider
