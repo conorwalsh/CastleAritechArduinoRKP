@@ -13,6 +13,10 @@
  *
  *   See: http://www.boards.ie/vbulletin/showthread.php?p=88215184
  *
+ *  Edited by: Conor Walsh
+ *  Updated port information
+ *  Sockets handshake doesnt work in Chrome works in Firefox tried to fix haven't found a solution yet
+ *
 */
 
 #include "sha1.h"
